@@ -1,7 +1,7 @@
 baseURL = 'http://example.org/'
 languageCode = 'ru-RU'
-title = 'на русском!'
-theme = 'PaperMod'
+title = 'Публичные заметки'
+theme = 'risotto'
 
 [markup.goldmark.renderer]
 unsafe = true
