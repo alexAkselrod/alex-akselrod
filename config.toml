@@ -13,6 +13,18 @@ palette = "base16-dark"
     name = "Квартиры"
     url = "/post/flats"
     weight = 10
+    
+  [[menu.main]]
+    identifier = "scrum"
+    name = "Scrum"
+    url = "/posts/scrum"
+    weight = 10
+    
+  [[menu.main]]
+    identifier = "q-planning"
+    name = "Планирование"
+    url = "/posts/quarter-planning"
+    weight = 10
 # For hugo >= 0.60.0, enable inline HTML
 [markup.goldmark.renderer]
 unsafe = true
