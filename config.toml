@@ -2,6 +2,17 @@ baseURL = 'https://org-share.pages.dev'
 languageCode = 'ru-RU'
 title = 'Публичные заметки'
 theme = 'risotto'
+# Automatically add content sections to main menu
+#sectionPagesMenu = "main"
+[params.theme]
+palette = "base16-dark"
+[menu]
 
+  [[menu.main]]
+    identifier = "flats"
+    name = "Квартиры"
+    url = "/post/flats"
+    weight = 10
+# For hugo >= 0.60.0, enable inline HTML
 [markup.goldmark.renderer]
 unsafe = true
