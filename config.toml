@@ -18,6 +18,12 @@ palette = "base16-dark"
     name = "Планирование"
     url = "/posts/quarter-planning"
     weight = 10
+    
+  [[menu.main]]
+    identifier = "arch-review"
+    name = "Арх ревью"
+    url = "/posts/arch-review"
+    weight = 10
 # For hugo >= 0.60.0, enable inline HTML
 [markup.goldmark.renderer]
 unsafe = true
