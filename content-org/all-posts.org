@@ -1,0 +1,11 @@
+#+hugo_base_dir: ../
+
+* DONE My first post                                        :tag1:@category1:
+CLOSED: [2023-03-30 Чт 12:19]
+:PROPERTIES:
+:EXPORT_FILE_NAME: my-first-post
+:END:
+:LOGBOOK:
+- State "DONE"       from "NEXT"       [2023-03-30 Чт 12:19]
+:END:
+Это какой-то пост)
