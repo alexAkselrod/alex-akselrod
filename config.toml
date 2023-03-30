@@ -6,14 +6,7 @@ theme = 'risotto'
 #sectionPagesMenu = "main"
 [params.theme]
 palette = "base16-dark"
-[menu]
-
-  [[menu.main]]
-    identifier = "flats"
-    name = "Квартиры"
-    url = "/post/flats"
-    weight = 10
-    
+[menu]    
   [[menu.main]]
     identifier = "scrum"
     name = "Scrum"
