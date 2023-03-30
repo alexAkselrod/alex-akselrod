@@ -1,4 +1,4 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://org-share.pages.dev'
 languageCode = 'ru-RU'
 title = 'Публичные заметки'
 theme = 'risotto'
