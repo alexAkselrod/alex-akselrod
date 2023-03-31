@@ -8,22 +8,28 @@ theme = 'risotto'
 palette = "base16-dark"
 [menu]    
   [[menu.main]]
+    identifier = "processes"
+    name = "Процессы"
+    url = "/processes/"
+    weight = 10
+  [[menu.main]]
     identifier = "scrum"
     name = "Scrum"
-    url = "/posts/scrum"
+    url = "/processes/scrum/"
     weight = 10
-    
+    parent = "processes"
   [[menu.main]]
     identifier = "q-planning"
     name = "Планирование"
-    url = "/posts/quarter-planning"
+    url = "/processes/quarter-planning"
     weight = 10
-    
+    parent = "processes"    
   [[menu.main]]
     identifier = "arch-review"
     name = "Арх ревью"
-    url = "/posts/arch-review"
+    url = "/processes/arch-review"
     weight = 10
+    parent = "processes"
 # For hugo >= 0.60.0, enable inline HTML
 [markup.goldmark.renderer]
 unsafe = true
