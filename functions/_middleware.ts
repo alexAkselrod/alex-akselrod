@@ -29,7 +29,7 @@ export async function onRequest(context: {
 	  status: 302,
 	  headers: {
 	      'Cache-Control': 'no-cache',
-              'Location': '/login?redirect=${pathname}',
+              'Location': `/login?redirect=${pathname}`,
 	  }
       });
   }
