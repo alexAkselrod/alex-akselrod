@@ -33,7 +33,7 @@ palette = "base16-dark"
   [[menu.main]]
     identifier = "private"
     name = "Частное"
-    url = "/prrivate"
+    url = "/private"
     weight = 10
 # For hugo >= 0.60.0, enable inline HTML
 [markup.goldmark.renderer]
