@@ -11,8 +11,14 @@ export async function onRequestPost(context: {
     console.log(`got ${password} while settings is ${env.CFP_PASSWORD} and redirect is ${redirect}`)
     const hashedPassword = await sha256(password.toString());
     const hashedCfpPassword = await sha256(env.CFP_PASSWORD);
-    //  const redirectPath = redirect.toString() || '/';
-    const redirectPath = "/"
+    const redirectPath;
+
+    if (redirect) {
+	redirectPath = redirect.toString() || '/';
+    } else {
+	redirectPath = "/";
+    }
+    
     if (hashedPassword === hashedCfpPassword) {
 	// Valid password. Redirect to home page and set cookie with auth hash.
 	const cookieKeyValue = await getCookieKeyValue(env.CFP_PASSWORD);
