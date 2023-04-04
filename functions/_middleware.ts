@@ -2,12 +2,6 @@ import { CFP_ALLOWED_PATHS } from './constants';
 import { getCookieKeyValue } from './utils';
 import { getTemplate } from './template';
 
-function isSecuredPath (path) : bool {
-    for (var val of CFP_ALLOWED_PATHS) {
-	if 
-    }
-}
-
 export async function onRequest(context: {
   request: Request;
   next: () => Promise<Response>;
@@ -21,7 +15,7 @@ export async function onRequest(context: {
 
   if (
     cookie.includes(cookieKeyValue) ||
-    !CFP_ALLOWED_PATHS.includes(pathname) ||
+    CFP_ALLOWED_PATHS.includes(pathname) ||
     !env.CFP_PASSWORD
   ) {
       console.log (`valid request with path ${pathname}`)
