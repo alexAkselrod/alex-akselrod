@@ -1,5 +1,5 @@
 +++
-title = "Опервционное ревью"
+title = "Операционное ревью"
 author = ["alex"]
 draft = false
 +++
