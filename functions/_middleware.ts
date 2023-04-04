@@ -15,7 +15,7 @@ export async function onRequest(context: {
 
   if (
     cookie.includes(cookieKeyValue) ||
-    CFP_ALLOWED_PATHS.includes(pathname) ||
+    !CFP_ALLOWED_PATHS.includes(pathname) ||
     !env.CFP_PASSWORD
   ) {
       console.log (`valid request with path ${pathname}`)
