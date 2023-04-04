@@ -30,6 +30,11 @@ palette = "base16-dark"
     url = "/processes/arch-review"
     weight = 10
     parent = "processes"
+  [[menu.main]]
+    identifier = "private"
+    name = "Частное"
+    url = "/prrivate"
+    weight = 10
 # For hugo >= 0.60.0, enable inline HTML
 [markup.goldmark.renderer]
 unsafe = true

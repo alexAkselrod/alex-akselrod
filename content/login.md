@@ -16,8 +16,8 @@ date: 2020-11-27 17:30:49
 	window.addEventListener("load", renderMsg);
 </script>
 
-<div id = "error"></div>
 <form accept-charset="UTF-8" action = "/cfp_login" method="POST">
     <input type="password" class="form__input" name="password" placeholder="Пароль">
     <button type="submit" class="form__submit">Войти!</button>
+	<div id = "error"></div>
 </form>
