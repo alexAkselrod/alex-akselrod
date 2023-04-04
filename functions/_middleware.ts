@@ -23,10 +23,12 @@ export async function onRequest(context: {
     return await next();
   } else {
     // No cookie or incorrect hash in cookie. Redirect to login.
-    return new Response(getTemplate({ redirectPath: pathname, withError: error === '1' }), {
-      headers: {
-        'content-type': 'text/html'
-      }
-    });
+      return new Response("", {
+	  status: 302,
+	  headers: {
+	      'Cache-Control': 'no-cache',
+              'Location': '/login',
+	  }
+      });
   }
 }
