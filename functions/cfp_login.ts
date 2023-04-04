@@ -31,7 +31,7 @@ export async function onRequestPost(context: {
 	    status: 302,
 	    headers: {
 		'Cache-Control': 'no-cache',
-		Location: `${redirectPath}?error=1`
+		Location: `/login?error=1`
 	    }
 	});
     }
