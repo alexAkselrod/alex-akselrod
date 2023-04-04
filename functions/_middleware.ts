@@ -18,10 +18,12 @@ export async function onRequest(context: {
     CFP_ALLOWED_PATHS.includes(pathname) ||
     !env.CFP_PASSWORD
   ) {
+      console.log (`valid request with path ${pathname}`)
     // Correct hash in cookie, allowed path, or no password set.
     // Continue to next middleware.
     return await next();
   } else {
+      console.log (`secured request with path ${pathname}`)
     // No cookie or incorrect hash in cookie. Redirect to login.
       return new Response("", {
 	  status: 302,
