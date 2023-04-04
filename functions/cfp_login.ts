@@ -7,7 +7,8 @@ export async function onRequestPost(context: {
 }): Promise<Response> {
   const { request, env } = context;
   const body = await request.formData();
-  const { password, redirect } = Object.fromEntries(body);
+    const { password, redirect } = Object.fromEntries(body);
+    console.log(`got ${password} while settings is ${env.CFP_PASSWORD} and redirect is ${redirect}`)
   const hashedPassword = await sha256(password.toString());
   const hashedCfpPassword = await sha256(env.CFP_PASSWORD);
   const redirectPath = redirect.toString() || '/';
