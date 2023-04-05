@@ -4,8 +4,7 @@ import { getTemplate } from './template';
 
 function checkPath (path: string): bool {
     for (var p of CFP_ALLOWED_PATHS) {
-	var r = new RegExp (p || "*")
-	if (r.test(path)) {
+	if (p.test(path)) {
 	    return true;
 	}
     }
