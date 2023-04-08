@@ -20,6 +20,18 @@ date: 2020-11-27 17:30:49
 	window.addEventListener("load", renderMsg);
 </script>
 
+<style>
+	.form__input {
+		background-color: var(--logo);
+		font-size: 20px;
+	}
+
+	.form__submit {
+		background-color: var(--muted);
+		font-size: 20px;
+	}
+</style>
+
 <form accept-charset="UTF-8" action = "/cfp_login" method="POST">
 	<input type = "hidden" name = "redirect" id = "redirect" value = "">
     <input type="password" class="form__input" name="password" placeholder="Пароль">
