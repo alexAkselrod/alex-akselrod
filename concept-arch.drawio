@@ -128,7 +128,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="sDb30rAKxZp0m4nzOCmN" name="Т-Возврат">
-    <mxGraphModel dx="2288" dy="1435" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1716" dy="1076" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -147,9 +147,6 @@
         </mxCell>
         <mxCell id="Lca33wvWyyki92KaZTiz-3" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Клиент" vertex="1">
           <mxGeometry height="60" width="30" x="450" y="796" as="geometry" />
-        </mxCell>
-        <mxCell id="Lca33wvWyyki92KaZTiz-4" parent="1" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" value="Prime" vertex="1">
-          <mxGeometry height="50" width="100" x="1028" y="1011" as="geometry" />
         </mxCell>
         <mxCell id="Lca33wvWyyki92KaZTiz-5" edge="1" parent="1" source="Lca33wvWyyki92KaZTiz-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=15;entryPerimeter=0;" target="Lca33wvWyyki92KaZTiz-15">
           <mxGeometry relative="1" as="geometry" />
@@ -274,7 +271,7 @@
           <mxGeometry height="50" width="100" x="2103" y="628" as="geometry" />
         </mxCell>
         <mxCell id="Lca33wvWyyki92KaZTiz-31" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Конфиги&lt;/h1&gt;&lt;ul&gt;&lt;li&gt;Причина обращения&lt;/li&gt;&lt;li&gt;Prompt выбора причины обращения&lt;/li&gt;&lt;li&gt;Процедура ЧБ или человека, которую нужно запустить&lt;/li&gt;&lt;li&gt;Текст вопросов для клиента&lt;/li&gt;&lt;/ul&gt;" vertex="1">
-          <mxGeometry height="147" width="209" x="2313" y="578" as="geometry" />
+          <mxGeometry height="147" width="209" x="2313" y="570" as="geometry" />
         </mxCell>
         <mxCell id="Lca33wvWyyki92KaZTiz-32" edge="1" parent="1" source="Lca33wvWyyki92KaZTiz-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;entryX=0.417;entryY=0.026;entryDx=0;entryDy=0;entryPerimeter=0;" target="Lca33wvWyyki92KaZTiz-40">
           <mxGeometry relative="1" as="geometry">
