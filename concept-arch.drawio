@@ -116,10 +116,22 @@
     </mxGraphModel>
   </diagram>
   <diagram id="sDb30rAKxZp0m4nzOCmN" name="Т-Возврат">
-    <mxGraphModel dx="2315" dy="2916" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2376" dy="2946" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="hlR1DAir60NfVgkZU8fx-56" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="230" width="400" x="1660" y="-1990" as="geometry" />
+        </mxCell>
+        <mxCell id="hlR1DAir60NfVgkZU8fx-54" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="130" width="445" x="1390" y="-1700" as="geometry" />
+        </mxCell>
+        <mxCell id="hlR1DAir60NfVgkZU8fx-53" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="160" width="390" x="1450" y="-1560" as="geometry" />
+        </mxCell>
+        <mxCell id="hlR1DAir60NfVgkZU8fx-50" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="290" width="230" x="1840" y="-1690" as="geometry" />
+        </mxCell>
         <mxCell id="y7_dy3vY8L9wnaEkeqrH-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
           <mxGeometry height="60" width="350" x="690" y="190" as="geometry" />
         </mxCell>
@@ -713,10 +725,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="hlR1DAir60NfVgkZU8fx-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Оценить беклог" vertex="1">
-          <mxGeometry height="60" width="140" x="1680" y="-1790" as="geometry" />
+          <mxGeometry height="60" width="140" x="1680" y="-1840" as="geometry" />
         </mxCell>
         <mxCell id="hlR1DAir60NfVgkZU8fx-23" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Составить Roadmap" vertex="1">
-          <mxGeometry height="60" width="140" x="1900" y="-1790" as="geometry" />
+          <mxGeometry height="60" width="140" x="1900" y="-1840" as="geometry" />
         </mxCell>
         <mxCell id="hlR1DAir60NfVgkZU8fx-28" edge="1" parent="1" source="hlR1DAir60NfVgkZU8fx-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="hlR1DAir60NfVgkZU8fx-27" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -757,11 +769,29 @@
         <mxCell id="hlR1DAir60NfVgkZU8fx-44" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Какую цель ставим перед собой? В чем наша амбиция?" vertex="1">
           <mxGeometry height="60" width="120" x="1470" y="-1510" as="geometry" />
         </mxCell>
+        <mxCell id="hlR1DAir60NfVgkZU8fx-58" edge="1" parent="1" source="hlR1DAir60NfVgkZU8fx-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="hlR1DAir60NfVgkZU8fx-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="hlR1DAir60NfVgkZU8fx-46" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Запросить ресурс на реализацию" vertex="1">
-          <mxGeometry height="60" width="140" x="1680" y="-1930" as="geometry" />
+          <mxGeometry height="60" width="140" x="1680" y="-1980" as="geometry" />
         </mxCell>
         <mxCell id="hlR1DAir60NfVgkZU8fx-49" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Нужно определить лидеров виртуальной команды!" vertex="1">
-          <mxGeometry height="60" width="120" x="1680" y="-1350" as="geometry" />
+          <mxGeometry height="60" width="140" x="1900" y="-1980" as="geometry" />
+        </mxCell>
+        <mxCell id="hlR1DAir60NfVgkZU8fx-52" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Антон, Санта" vertex="1">
+          <mxGeometry height="30" width="100" x="1840" y="-1720" as="geometry" />
+        </mxCell>
+        <mxCell id="hlR1DAir60NfVgkZU8fx-55" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Олеся, Ваня" vertex="1">
+          <mxGeometry height="30" width="90" x="1390" y="-1730" as="geometry" />
+        </mxCell>
+        <mxCell id="hlR1DAir60NfVgkZU8fx-57" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Совместно!" vertex="1">
+          <mxGeometry height="30" width="90" x="1660" y="-2020" as="geometry" />
+        </mxCell>
+        <mxCell id="hlR1DAir60NfVgkZU8fx-60" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Леша Рябчиков!" vertex="1">
+          <mxGeometry height="30" width="120" x="-340" y="-1050" as="geometry" />
+        </mxCell>
+        <mxCell id="hlR1DAir60NfVgkZU8fx-61" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Синки раз в день, на полчаса" vertex="1">
+          <mxGeometry height="60" width="120" x="2125" y="-1540" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
