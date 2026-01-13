@@ -116,7 +116,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="sDb30rAKxZp0m4nzOCmN" name="Т-Возврат">
-    <mxGraphModel dx="1712" dy="2742" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2315" dy="2916" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -649,6 +649,9 @@
         <mxCell id="hlR1DAir60NfVgkZU8fx-4" edge="1" parent="1" source="hlR1DAir60NfVgkZU8fx-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Lca33wvWyyki92KaZTiz-99">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="hlR1DAir60NfVgkZU8fx-48" edge="1" parent="1" source="hlR1DAir60NfVgkZU8fx-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Lca33wvWyyki92KaZTiz-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="hlR1DAir60NfVgkZU8fx-1" parent="1" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="РОС классификатор" vertex="1">
           <mxGeometry height="50" width="100" x="950" y="550" as="geometry" />
         </mxCell>
@@ -756,6 +759,9 @@
         </mxCell>
         <mxCell id="hlR1DAir60NfVgkZU8fx-46" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Запросить ресурс на реализацию" vertex="1">
           <mxGeometry height="60" width="140" x="1680" y="-1930" as="geometry" />
+        </mxCell>
+        <mxCell id="hlR1DAir60NfVgkZU8fx-49" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Нужно определить лидеров виртуальной команды!" vertex="1">
+          <mxGeometry height="60" width="120" x="1680" y="-1350" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
